@@ -1,5 +1,6 @@
 function america_test
 
+
 % Out of memory for L > 4
 
 close all; clear all;
@@ -39,7 +40,7 @@ end
 %
   filename = [filename 'fixed_n'];
   fp = fopen([filename '.txt'],'w');
-  mlmc_test_100(@america_multilevel_bridge, NaN, N0,Eps,Lmin,Lmax, fp);
+  mlmc_test_100(@america_multilevel, NaN, N0,Eps,Lmin,Lmax, fp);
   fclose(fp);
 
 %
