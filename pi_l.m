@@ -1,4 +1,4 @@
-%% This is a level l estimator function for pi. 
+%% This is a level l estimator function for pi_l used in the introductory section of the FYP. 
 
 %function [pi_hat, error] = pi_l(l, N)
 
