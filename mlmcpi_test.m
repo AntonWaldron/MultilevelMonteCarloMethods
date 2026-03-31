@@ -1,5 +1,5 @@
-%% Test function used to run level l pi estimator pi\_l
-
+% This is the test function using the level l estimator for pi.
+% This function produces the convergence plots and results for the pi estimator used in Chapter 2 of the FYP. 
 
 function mlmcpi_test
 
