@@ -1,5 +1,7 @@
 %% Downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
 
+% This function produces many of the plots used in the FYP including the European results and convergence plots, floating lookback result and convergence plots and fixed lookback plot using an ad-hoc maximum. 
+
 %
 % These are similar to the MLMC tests for the original 
 % 2008 Operations Research paper, using an Euler-Maruyama 
@@ -252,7 +254,7 @@ for N1 = 1:10000:N
       Pc = K * 0.5*(sign(Xc-K)+1);
     elseif option == 5 % Adding Fixed Lookback call option
       beta = 0.5826;
-      Pf = max(0, mf*(1+beta*sig*sqrt(hf)) - K);
+      Pf = max(0, mf*(1+beta*sig*sqrt(hf)) - K); % Ad-hoc maximum used to fix the discretisation error introduced by estimating the maximum over discrete timesteps. 
       Pc = max(0, mc*(1+beta*sig*sqrt(hc)) - K);
     end
     % 
