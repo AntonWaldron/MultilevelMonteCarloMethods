@@ -1,4 +1,4 @@
-% This function produces the Brownian motion and Brownian Bridging plots used in the FYP. 
+% This function produces the Brownian motion and Brownian Bridging plots used in the FYP. It is adapted from code used in Higham's 'An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations' paper. 
 function BPATH1
 
 figure
