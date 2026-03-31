@@ -1,8 +1,10 @@
+% This function produces the dataset used for the Multilevel Monte Carlo cost vs Standard cost plot used in Section 3.5 Empirical Results on a Real Life Options Dataset of the FYP. 
+
 function calloptionspricing
 
 close all; clear all;
 
-options_data = readtable('C:\Users\kingc\Desktop\Calls\itm_calls_1.csv');
+options_data = readtable('file.csv');
 
 strikePrice = options_data.Strike; % 1x300 column vector of strikeprices
 expPrice = options_data.PriceExp; % of stock price at expiry
