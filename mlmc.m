@@ -1,4 +1,5 @@
-%% This is the main driver function for MLMC. 
+%% This is the main driver function for MLMC
+%% Downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
 
 % function [P, Nl, cost] = mlmc(mlmc_l,N0,eps,Lmin,Lmax,
 %                               alpha,beta,gamma, varargin)
