@@ -1,4 +1,4 @@
-% This is code written by M.B Giles downloaed from https://people.maths.ox.ac.uk/gilesm/mlmc/
+% This is code written by M.B Giles downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
 
 %
 % function mlmc_test(mlmc_l, N,L, N0,Eps,Lmin,Lmax, fp, varargin)
