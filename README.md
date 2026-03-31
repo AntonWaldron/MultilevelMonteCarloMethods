@@ -2,9 +2,7 @@
 
 This is a code repository containing all of the MATLAB M-functions used to produce results for my Final Year Project titled 'Multilevel Monte Carlo Methods for Options Pricing'. 
 
-The M-functions opre.m, mcqmc06.m, mlmc.m, mlmc_plot.m, mlmc_test.m, mlmc_test_100.m, are all downloaded from Giles' webpage https://people.maths.ox.ac.uk/gilesm/mlmc/. 
-
-The M-functions pi_l function provides a nice introduction to MLMC in application; it shows how a simple Monte Carlo pi estimator can be adapted to a Multilevel Monte Carlo context, the M-function
+The M-functions opre.m, mcqmc06.m, mlmc.m, mlmc_plot.m, mlmc_test.m, mlmc_test_100.m, are all downloaded from Giles' webpage https://people.maths.ox.ac.uk/gilesm/mlmc/. They are used, in conjuction with edits to the source code from Giles, to produce the plots and results in the third chapter of the report. 
 
 The M-functions pi_l and mlmcpi_test provide a nice introduction to MLMC in application; the first shows how to adapt a standard Monte Carlo approach to produce a level l estimator and the second calls the MLMC driver functions to produce the convergence and result plots used in the final report. 
 
