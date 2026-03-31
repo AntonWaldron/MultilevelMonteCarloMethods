@@ -1,6 +1,6 @@
 % This is code adapted from 'An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations' by Dr. Desmon J. Higham 
 
-% This code produces a plot of how Brownian Motions are coupled in the Multilevel Monte Carlo method. 
+% This code produces the plot of coupled Brownian Motions used in the FYP. 
 
 function BPATH5
 
