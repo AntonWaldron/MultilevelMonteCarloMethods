@@ -8,6 +8,6 @@ The M-functions pi_l and mlmcpi_test provide a nice introduction to MLMC in appl
 
 The M-functions america_multilevel.m and america_test.m were written to price American options using the Long-Staff and Schwarz method in a multilevel context.
 
-The M-function calloptionspricing.m  reads in a datset of call options and produces estimates for the MLMC and Standard cost needed for a RMSE target of 0.01 for European options.
+The M-function calloptionspricing.m  reads in a dataset of call options and produces estimates for the MLMC and Standard cost needed for a RMSE target of 0.01 for European options.
 
 The BPATH files produce the Brownian Motion plots used in the report. 
