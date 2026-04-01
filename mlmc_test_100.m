@@ -1,4 +1,4 @@
-% Code downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
+%% MLMC Test function downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
 
 %
 % function mlmc_test_100(mlmc_l, val, N0,Eps,Lmin,Lmax, fp, varargin)
