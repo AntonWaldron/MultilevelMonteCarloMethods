@@ -1,5 +1,5 @@
 % This code has been downloaded from https://people.maths.ox.ac.uk/gilesm/mlmc/
-% In it he uses a Milstein discretisation to improve the convergence of path dependent options.
+% The code uses the Milstein discretisation to improve the convergence of path dependent options.
 % We adjust it to price a Fixed Lookback option by assumming the stock price is a Brownian Bridge between time steps and sampling its maximum. 
 
 
