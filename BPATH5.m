@@ -31,3 +31,5 @@ legend('Fine Brownian Motion Path (Wf)', 'Coarse Brownian Motion Path (Wc)')
 xlabel('Time')
 ylabel('Brownian Motion Value')
 title('Brownian Motion Paths')
+
+end
