@@ -187,7 +187,7 @@ for N1 = 1:10000:N
     Mf = Xf;
     Mc = Xc;
 
-    % For Fixed Lookback max
+    % For Fixed Lookback Max
     mf = Xf;
     mc = Xc;
     
@@ -217,9 +217,9 @@ for N1 = 1:10000:N
           % Asian Option: Updating the average of the stock price 
           Af  = Af + hf*Xf; % hfXf = Xf/nf 
           
-          % Lookback Option: Updating the minimum of the stock price
+          % Lookback Option: Updating the minimum/maximum of the stock price
           Mf  = min(Mf,Xf);
-          mf = max(mf, Xf); % Updating max
+          mf = max(mf, Xf); 
         end
 
         % Euler Marayama for coarse terms using dWc = dWc + dWf to ensure coupling  
@@ -227,7 +227,7 @@ for N1 = 1:10000:N
         % Average stock price over the coarse estimates
         Ac = Ac + hc*Xc;
 
-        % Minimum of the stock price, over the coarse terms for Lookback
+        % Minimum  and maximum of the stock price, over the coarse terms for Lookback
         Mc = min(Mc,Xc);
 
         mc = max(mc, Xc); 
