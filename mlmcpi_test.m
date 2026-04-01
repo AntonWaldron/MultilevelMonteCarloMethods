@@ -1,5 +1,4 @@
-% This is the test function using the level l estimator for pi.
-% This function produces the convergence plots and results for the pi estimator used in Chapter 2 of the FYP. 
+%% Multilevel Test function for pi l, this calls the MLMC driver functions to produce convergence plots and results for the pi estimator used in chapter 2 of the FYP. 
 
 function mlmcpi_test
 
