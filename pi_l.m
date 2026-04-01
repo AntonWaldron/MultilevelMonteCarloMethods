@@ -1,7 +1,5 @@
 %% This is a level l estimator function for pi_l used in the introductory section of the FYP. 
 
-%function [pi_hat, error] = pi_l(l, N)
-
 function [sums, cost] = pi_l(l, N)
 
 %mlmc_l = function for level l estimator 
