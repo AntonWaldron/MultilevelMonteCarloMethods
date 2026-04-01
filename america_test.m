@@ -1,4 +1,4 @@
-% This function, combined with the america_multilevel.m and mlmc functions produces the convergence and result plots used in the American options section of the FYP. 
+% This function, combined with the america_multilevel.m and mlmc functions produce the convergence and result plots used in the American options section of the FYP. 
 
 function america_test
 
