@@ -19,7 +19,7 @@ M = 4;
 if l == 0
     Pc = 0; 
     nf = M^l;% Number of timesteps
-    df = T/nf; % Use the regression function from the fine path for the coarse path
+    df = T/nf; 
     hf = T/nf;
     dWf = sqrt(df)*randn(nf,N); % N : Number of paths
     Sf  = cumprod([repmat(S0,1,N); exp((r-sig^2/2)*df+sig*dWf)]);  % paths
