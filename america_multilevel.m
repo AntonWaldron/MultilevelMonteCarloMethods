@@ -108,5 +108,5 @@ sums(4) = sum((Pf-Pc).^4);
 sums(5) = sum(Pf); 
 sums(6) = sum(Pf.^2);
 
-cost = N*nf;
+cost = N*(nf+nc);
 end
