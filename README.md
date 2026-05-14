@@ -1,6 +1,8 @@
 # MultilevelMonteCarloMethods
 
-This is a code repository containing all of the MATLAB M-functions used to produce results for my Final Year Project titled 'Multilevel Monte Carlo Methods for Options Pricing'. 
+This is a code repository containing all of the MATLAB M-functions used to produce results for my Final Year Project titled 'Multilevel Monte Carlo Methods for Options Pricing' as well as the report itself. 
+
+The report can be found in the main branch titled 'Multilevel Monte Carlo Methods - Anton Waldron'. 
 
 The M-functions opre.m, mcqmc06.m, mlmc.m, mlmc_plot.m, mlmc_test.m, mlmc_test_100.m, are all downloaded from Giles' webpage https://people.maths.ox.ac.uk/gilesm/mlmc/. They are used, in conjuction with edits to the source code from Giles, to produce the majority of the plots and results the report. 
 
